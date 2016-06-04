@@ -1,39 +1,38 @@
-# SHOP
+# \<WhereGotSaleAHKL2016\>
 
-### Setup
+We provide the consumer with knowledge to all the various sales and discounted items offered by any and every shop in malls and an awesome Indoor mall navigation directly to the sale you want or anywhere you want to go in any mall you&#39;re in.
 
-##### Prerequisites
+## Install the Polymer-CLI
 
-Install [polymer-cli](https://github.com/Polymer/polymer-cli):
+First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
 
-    npm install -g polymer-cli
+## Viewing Your Application
 
-Need at least v0.3.0
+```
+$ polymer serve
+```
 
-##### Setup
+## Building Your Application
 
-    git clone https://github.com/Polymer/shop.git
-    cd shop
-    bower install
+```
+$ polymer build
+```
 
-### Start the development server
+This will create a `build/` folder with `bundled/` and `unbundled/` sub-folders
+containing a bundled (Vulcanized) and unbundled builds, both run through HTML,
+CSS, and JS optimizers.
 
-    polymer serve
+You can serve the built versions by giving `polymer serve` a folder to serve
+from:
 
-### Run web-component-tester tests
+```
+$ polymer serve build/bundled
+```
 
-    polymer test
+## Running Tests
 
-### Build
+```
+$ polymer test
+```
 
-    polymer build
-
-### Test the build
-
-This command serves the minified version of the app in an unbundled state, as it would be served by a push-compatible server:
-
-    polymer serve build/unbundled
-    
-This command serves the minified version of the app generated using fragment bundling:
-
-    polymer serve build/bundled
+Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
