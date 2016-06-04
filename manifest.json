@@ -1,7 +1,29 @@
 {
-  "name": "WhereGotSaleAHKL2016",
-  "short_name": "WhereGotSaleAHKL2016",
-  "description": "We provide the consumer with knowledge to all the various sales and discounted items offered by any and every shop in malls and an awesome Indoor mall navigation directly to the sale you want or anywhere you want to go in any mall you&#39;re in.",
+  "name": "My App",
+  "short_name": "My App",
+    "icons": [{
+      "src": "images/app-icon-32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    }, {
+      "src": "images/app-icon.svg",
+      "sizes": "128x128",
+      "type": "image/svg"
+    }, {
+      "src": "images/app-icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "images/app-icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg"
+    },{
+      "src": "images/app-icon.svg",
+      "sizes": "384x384",
+      "type": "image/svg"
+    }],
   "start_url": "/",
-  "display": "standalone"
+  "display": "standalone",
+  "background_color": "#3f51b5",
+  "theme_color": "#3f51b5"
 }
